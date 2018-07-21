@@ -1,0 +1,26 @@
+{
+  "name": "mmh",
+  "version": "0.0.6",
+  "description": "Multiclass and Multicontract hybrid implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Qwoyn/MMH.git"
+  },
+  "keywords": [
+    "nft",
+    "mct",
+    "erc721",
+    "erc20",
+    "erc1203"
+  ],
+  "author": "Daniel Pittman",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Qwoyn/MMH/issues"
+  },
+  "homepage": "https://github.com/Qwoyn/MMH#readme"
+}
