@@ -931,8 +931,8 @@ contract abilities  {
         return _val;
     }	
 	
-/// @notice allows the owner of this contract to destroy the contract
-   function kill() public {
-	  if(msg.sender == owner) selfdestruct(owner);
+	/// @notice allows the owner of this contract to destroy the contract
+	function kill() public {
+		if(msg.sender == owner) selfdestruct(owner);
    }
 }
