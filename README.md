@@ -1,6 +1,6 @@
 # MMH Multiclass/Multicontract Hybrid
 
-##NFT and MCT interaction 
+## NFT and MCT interaction 
 
 "It is fair to think of MCTs as a hybrid of fungible tokens (FT) and non-fungible tokens (NFTs), that is tokens are 
 fungible within the same class but non-fungible with that from a different class." - EIP1203 
@@ -11,14 +11,14 @@ those items in the NFT Tool Generator Contract to craft a pickaxe. In order for 
 functions in the contract that is making the call as required by the contracts ABI that I am calling.  Game Contract 
 will include the ABI function calls and the addresses from the Tool Generator Contract and the Craftable Item Generator.
 
-##Contracts
+## Contracts
 
-###NFT Abilities Contract
+### NFT Abilities Contract
 	- Allows user to Call Craftable Item Generator and craft items
 	- Allows user to Call Tool Generator and craft items
 	
 	
-###NFT Tool Generator Contract
+### NFT Tool Generator Contract
 	- NFT Contract that crafts items using MCT Token
 		- 	if user sends 1 Iron and 2 Wood tokens
 			the contract will create 1 pickaxe token.
@@ -27,7 +27,7 @@ will include the ABI function calls and the addresses from the Tool Generator Co
 			tool, those tokens will be destroyed.
 		
 		
-###MCT Craftable Item Generator Contract
+### MCT Craftable Item Generator Contract
 	- MCT contract that creates craftable items
 		-	user will create 1 Iron token and 2 Wood tokens
 			and send those tokens to NFT Tool Creator Contract
@@ -51,7 +51,7 @@ will include the ABI function calls and the addresses from the Tool Generator Co
 				- 2000 exist
 
 
-###MCT Tokens
+### MCT Tokens
 
 
 					NFT Class One					NFT Class Two
