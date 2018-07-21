@@ -3,12 +3,13 @@
 NFT and MCT interaction 
 
 "It is fair to think of MCTs as a hybrid of fungible tokens (FT) and non-fungible tokens (NFTs), that is tokens are 
-fungible within the same class but non-fungible with that from a different class." Let's use this concept to create a smart 
-contract that allows a user to send MCT Tokens to an NFT smart contract.  In this example we will use the Game Contract
-construct wood and iron within the MCT Craftable item generator and use those items in the NFT Tool Generator Contract to craft 
-a pickaxe. In order for this to happen, we must include the functions in the contract that is making the call as required by the 
-contracts ABI that I am calling.  Game Contract will include the ABI function calls and the addresses from the Tool Generator 
-Contract and the Craftable Item Generator.
+fungible within the same class but non-fungible with that from a different class." - EIP1203 
+
+Let's use this concept to create a smart contract that allows a user to send MCT Tokens to an NFT smart contract. In 
+this example we will use the Game Contract construct wood and iron within the MCT Craftable item generator and use 
+those items in the NFT Tool Generator Contract to craft a pickaxe. In order for this to happen, we must include the 
+functions in the contract that is making the call as required by the contracts ABI that I am calling.  Game Contract 
+will include the ABI function calls and the addresses from the Tool Generator Contract and the Craftable Item Generator.
 
 
 NFT Abilities Contract
