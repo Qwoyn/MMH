@@ -16,7 +16,7 @@ NFT Abilities Contract
 	- Allows user to Call Craftable Item Generator and craft items
 	- Allows user to Call Tool Generator and craft items
 	
-
+	
 NFT Tool Generator Contract
 	- NFT Contract that crafts items using MCT Token
 		- 	if user sends 1 Iron and 2 Wood tokens
@@ -24,6 +24,7 @@ NFT Tool Generator Contract
 		
 		- 	Once the tokens have been used to generate the
 			tool, those tokens will be destroyed.
+		
 		
 MCT Craftable Item Generator Contract
 	- MCT contract that creates craftable items
