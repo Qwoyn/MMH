@@ -6,9 +6,9 @@
 fungible within the same class but non-fungible with that from a different class." - EIP1203 
 
 Let's use this concept to create a smart contract that allows a user to send MCT Tokens to an NFT smart contract. In 
-this example we will use the Game Contract construct wood and iron within the MCT Craftable item generator and use 
+this example we will use the the Abilities Contract construct wood and iron within the MCT Craftable item generator and use 
 those items in the NFT Tool Generator Contract to craft a pickaxe. In order for this to happen, we must include the 
-functions in the contract that is making the call as required by the contracts ABI that I am calling.  Game Contract 
+functions in the contract that is making the call as required by the contracts ABI that I am calling.  the Abilities Contract 
 will include the ABI function calls and the addresses from the Tool Generator Contract and the Craftable Item Generator.
 
 ## Contracts
@@ -16,6 +16,7 @@ will include the ABI function calls and the addresses from the Tool Generator Co
 ### NFT Abilities Contract
 	- Allows user to Call Craftable Item Generator and craft items
 	- Allows user to Call Tool Generator and craft items
+	- Creates record of tool generation and sends record token to owner
 	
 	
 ### NFT Tool Generator Contract
