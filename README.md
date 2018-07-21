@@ -11,6 +11,17 @@ those items in the NFT Tool Generator Contract to craft a pickaxe. In order for 
 functions in the contract that is making the call as required by the contracts ABI that I am calling.  the Abilities Contract 
 will include the ABI function calls and the addresses from the Tool Generator Contract and the Craftable Item Generator.
 
+### MCT Tokens
+
+
+					NFT Class One					NFT Class Two
+					----							----
+					   |							   |
+					   FT Tokens of 					FT Tokens of
+					   Class One						Class Two
+					   
+					   
+
 ## Contracts
 
 ### NFT Abilities Contract
@@ -50,29 +61,3 @@ will include the ABI function calls and the addresses from the Tool Generator Co
 				- 1 gram
 				- value 25
 				- 2000 exist
-
-
-### MCT Tokens
-
-
-					NFT Class One					NFT Class Two
-					----							----
-					   |							   |
-					   FT Tokens of 					FT Tokens of
-					   Class One						Class Two
-					   
-					   
-
-					   
-
-
-
-
-
-
-
-
-
-
-
-
